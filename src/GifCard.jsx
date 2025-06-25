@@ -11,7 +11,7 @@ const GifCard = ({ data }) => {
     <div className="gif-card-container">
       {data.slice(1, 10).map((gif) => (
         <div className="cards" key={gif?.id}>
-          <img src={gif?.images?.fixed_height?.url} alt={gif?.alt_text} />
+          <img className="gif-img" src={gif?.images?.fixed_height?.url} alt={gif?.alt_text} />
         </div>
       ))}
     </div>

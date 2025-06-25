@@ -3,3 +3,16 @@
     height: 50px;
     text-align: center;
 }
+
+.field-container {
+    display: flex;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding-left: .8rem;
+    padding-right: .8rem;
+    border-radius: .5rem;
+
+}

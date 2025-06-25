@@ -12,7 +12,7 @@ const SearchField = ({ fetchData }) => {
     fetchData(searchValue);
   };
   return (
-    <main>
+    <main className="field-container">
       <form
         onSubmit={(e) => {
           e.preventDefault(); // prevent page from reloading when enter/return is pressed
