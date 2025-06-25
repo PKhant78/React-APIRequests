@@ -1,10 +1,9 @@
 .gif-card-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .cards {
-    border: solid;
-    border-color: black;
+  border: solid;
+  border-color: black;
 }
