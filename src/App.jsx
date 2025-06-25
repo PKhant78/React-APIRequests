@@ -13,7 +13,7 @@ const App = () => {
 
   const fetchData = async (searchValue) => {
     const response = await axios.get(
-      `http://api.giphy.com/v1/gifs/search?q=${searchValue}&api_key=${GIPHY_API_KEY}`
+      `https://api.giphy.com/v1/gifs/search?q=${searchValue}&api_key=${GIPHY_API_KEY}`
     );
     console.log(response.data);
     setData(response.data.data); // set the arrays of GIF objects into data
