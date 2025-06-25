@@ -5,7 +5,8 @@ const GifCard = ({ data }) => {
   console.log("this is data-->", data[0]?.images);
   console.log("this is data-->", data[0]);
 
-  //slice from 1 to 10
+  // slice from 1 to 10
+  // using fixed_height.url for gif because the normal sized gif is too big.
   return (
     <div className="gif-card-container">
       {data.slice(1, 10).map((gif) => (
